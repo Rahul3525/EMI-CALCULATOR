@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="dom.css">
+  <title>Document</title>
+</head>
+<body>
+  <h2>EMI CALCULATOR</h2>
+
+  <label>Loan Amount</label><br>
+  <input id="loanAmount" placeholder="enter loan amount here" /><br><br>
+
+  <label>Interest Rate%</label><br>
+  <input id="interestRate" placeholder="min 5% interest here" /><br><br>
+
+  <label>Loan Tenure (Years)</label><br>
+  <input id="loanTenure" placeholder="minimum 3 years" /><br><br>
+
+  <button onclick="calculateEMI()">Calculate EMI</button><br><br>
+
+  <p id="output"></p>
+
+<script src="dom.js"></script>
+</body>
+</html>

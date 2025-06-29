@@ -1,0 +1,14 @@
+body{
+    background-color: red; color: black; text-align: center;
+}
+#p{
+    font-size: 18px; 
+    color: white;
+}
+button{
+    background-color: lightgreen;
+    cursor: pointer;
+}
+button:hover{
+    color: blue;
+}
